@@ -1,11 +1,4 @@
-public class Car {
-
-    public String modelName;
-    public int wheelsCount;
-
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
+public class Car extends Transport {
 
     public void checkEngine() {
         System.out.println("Проверяем двигатель");
