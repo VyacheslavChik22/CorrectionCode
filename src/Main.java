@@ -21,7 +21,8 @@ public class Main {
         bicycle.setWheelsCount(2);
         bicycle2.setWheelsCount(2);
 
-        ServiceStation station = new ServiceStation();
+
+        ServiceTypes station = new ServiceStation();
         station.check(car, null, null);
         station.check(car2, null, null);
         station.check(null, bicycle, null);

@@ -1,15 +1,6 @@
-public class Car extends Transport implements ServiceTypes{
-    @Override
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-    @Override
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
+public class Car extends Transport {
 
-    @Override
-    public void checkTrailer() {
-        
+    public void checkEngine() {
+        System.out.println("РџСЂРѕРІРµСЂСЏРµРј РґРІРёРіР°С‚РµР»СЊ");
     }
 }

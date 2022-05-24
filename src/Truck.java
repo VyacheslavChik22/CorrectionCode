@@ -1,15 +1,10 @@
 public class Truck extends Transport {
 
-    @Override
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-    @Override
     public void checkEngine() {
-        System.out.println("Проверяем двигатель");
+        System.out.println("РџСЂРѕРІРµСЂСЏРµРј РґРІРёРіР°С‚РµР»СЊ");
     }
-    @Override
+
     public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
+        System.out.println("РџСЂРѕРІРµСЂСЏРµРј РїСЂРёС†РµРї");
     }
 }

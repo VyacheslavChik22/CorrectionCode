@@ -1,20 +1,21 @@
-public class ServiceStation  {
+public class ServiceStation implements ServiceTypes  {
+
     public void check(Car car, Bicycle bicycle, Truck truck) {
         if (car != null) {
-            System.out.println("Обслуживаем " + car.getModelName());
+            System.out.println("РћР±СЃР»СѓР¶РёРІР°РµРј " + car.getModelName());
             for (int i = 0; i < car.getWheelsCount(); i++) {
                 car.updateTyre();
             }
             car.checkEngine();
         } else if (truck != null) {
-            System.out.println("Обслуживаем " + truck.getModelName());
+            System.out.println("РћР±СЃР»СѓР¶РёРІР°РµРј " + truck.getModelName());
             for (int i = 0; i < truck.getWheelsCount(); i++) {
                 truck.updateTyre();
             }
             truck.checkEngine();
             truck.checkTrailer();
         } else if (bicycle != null) {
-            System.out.println("Обслуживаем " + bicycle.getModelName());
+            System.out.println("РћР±СЃР»СѓР¶РёРІР°РµРј " + bicycle.getModelName());
             for (int i = 0; i < bicycle.getWheelsCount(); i++) {
                 bicycle.updateTyre();
             }
